@@ -1,0 +1,60 @@
+.Photos {
+  height: 100%;
+  width: 100%;
+}
+
+.Header {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: #caeac3;
+    color: #000000;
+    font-size: calc(5px + 3vmin);
+    justify-content: center;
+    align-items: center;
+    opacity:0.5;
+  }
+
+  .Header:hover {
+    opacity: 1.0;
+  }
+
+.Scroll-box {
+  width: 100%;
+  height: 90vh;
+  overflow-y: auto;
+}
+
+.Image-row {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  background-color: #ffffff;
+  flex-direction: row;
+}
+
+.Image-box {
+  width: 50%;
+  height: 100%;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.Image-box img {
+  border: 1% solid #ddd; 
+  border-radius: 5%;
+  padding: 2%;
+  width: 94%;
+  height: 94%;
+  opacity: 1;
+}
+
+.Image-box img:hover {
+  opacity: 0.50;
+}
+
+.Image-box .image-panel {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}

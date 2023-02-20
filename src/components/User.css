@@ -1,0 +1,30 @@
+
+.User {
+    height: 100%;
+    width: 100%;
+    color: #000000;
+    font-size: calc(3px + 2vmin);
+    padding-left: 10%;
+    padding-top: 10%;
+    opacity: 0.6;
+}
+
+.User:hover {
+    opacity: 1.0;
+    border: 5%;
+    border-color: inherit;
+}
+
+.Field {
+  margin: 10%;
+  margin-left: 3%;
+}
+
+.FieldM {
+    margin: 10%;
+}
+
+.label-text {
+    color: #000000;
+    font-size: calc(3px + 2vmin);
+}
